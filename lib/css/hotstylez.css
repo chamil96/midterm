@@ -44,9 +44,13 @@ table {
 	border-spacing: 0;
 }
 /* Index */
-#roadtohire-display{
+.homemain-content {
+  text-align: center;
   display: block;
-  background-image: url("lib/img/roadtohirelogo3.jpg");
+  height: 700px;
+  background-image: url("https://pbs.twimg.com/profile_images/829431121586880513/UGqLggLr.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Contact */
@@ -54,20 +58,53 @@ legend{
   padding-top: 200px;
 }
 
-/* Table */
-#table{
-  padding-top: 200px;
-  display: inline-block;
+fieldset{
+  background-color: darkblue;
+  font-size: 20px;
+  color: white;
 }
-#table th{
+
+.error{
+  color: red;
+}
+
+/* Table */
+.table-display{
+    padding-top: 200px;
+}
+
+#table{
+  display: inline-block;
+  background-color: darkblue;
+  border-radius: 17px;
+  width: 600px;
   border-style: groove;
 }
 
 
+table{
+  color: white;
+  font-size: 20px;
+}
 
 /* Codepen */
 .codepen-display{
   padding-top: 150px;
+  font-size: 25px;
+  color: white;
+
+}
+
+#codepen-list{
+  background-color: darkblue;
+}
+
+.codepen-display a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+
 }
 
 /* All */
@@ -77,6 +114,8 @@ legend{
 
 .header h1{
   font-size: 3em;
+  color: white;
+  font-family: 'Baloo Bhaijaan', cursive;
 }
 
 .navbar {
@@ -110,7 +149,7 @@ legend{
   background-color: inherit;
   font-family: Times New Roman;
 }
-.container a:hover, .dropdown-menu:hover.drop-but{
+.dropdown-menu a:hover, .dropdown-menu:hover.drop-but{
   background-color: grey;
 }
 
@@ -121,7 +160,7 @@ legend{
 
 .dropdown-links a{
   float: none;
-  color: black;
+  color: white;
   text-decoration: none;
   text-align:left;
   padding: 12px 16px;
@@ -134,4 +173,7 @@ legend{
 
 .dropdown-menu:hover .dropdown-links{
   display: block;
+}
+body{
+  background-image: url("https://arlingtonvoice.com/sites/default/files/reports/2017/Feb/06/water-17.jpg");
 }
