@@ -44,14 +44,94 @@ table {
 	border-spacing: 0;
 }
 /* Index */
-.main-content{
+#roadtohire-display{
+  display: block;
   background-image: url("lib/img/roadtohirelogo3.jpg");
 }
 
 /* Contact */
-
+legend{
+  padding-top: 200px;
+}
 
 /* Table */
+#table{
+  padding-top: 200px;
+  display: inline-block;
+}
+#table th{
+  border-style: groove;
+}
+
 
 
 /* Codepen */
+.codepen-display{
+  padding-top: 150px;
+}
+
+/* All */
+.container{
+  text-align: center;
+}
+
+.header h1{
+  font-size: 3em;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  display: inline-block;
+  width: auto;
+}
+
+.navbar a{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Times New Roman;
+}
+
+.dropdown-menu{
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-menu .drop-but{
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Times New Roman;
+}
+.container a:hover, .dropdown-menu:hover.drop-but{
+  background-color: grey;
+}
+
+.dropdown-links{
+  display: none;
+  position: absolute;
+}
+
+.dropdown-links a{
+  float: none;
+  color: black;
+  text-decoration: none;
+  text-align:left;
+  padding: 12px 16px;
+  display: block;
+}
+
+.drop-links a:hover{
+  background-color: blue;
+}
+
+.dropdown-menu:hover .dropdown-links{
+  display: block;
+}
